@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Offline Repeater Pro — Support</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 4rem;
+    background: #F7F1E3;
+    color: #1c1b1a;
+  }
+  h1 { font-size: 1.7rem; margin: 0 0 .25rem; }
+  h2 { font-size: 1.2rem; margin: 2.25rem 0 .5rem; }
+  .sub { color: #6b655c; margin: 0 0 2rem; }
+  a { color: #5b3fb0; }
+  ul { padding-left: 1.25rem; }
+  li { margin: .35rem 0; }
+  code { background: rgba(0,0,0,.06); padding: .1em .35em; border-radius: 4px; }
+  .contact {
+    margin: 1.5rem 0;
+    padding: 1rem 1.25rem;
+    background: rgba(0,0,0,.04);
+    border-radius: 10px;
+  }
+  footer { margin-top: 3rem; color: #6b655c; font-size: .9rem; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #141218; color: #e7e2df; }
+    .sub, footer { color: #a49f98; }
+    a { color: #cbb8ff; }
+    code, .contact { background: rgba(255,255,255,.08); }
+  }
+</style>
+</head>
+<body>
+
+<h1>Offline Repeater Pro — Support</h1>
+<p class="sub">Find the amateur and GMRS repeaters near you and program them into your radio over Bluetooth. Works fully offline.</p>
+
+<div class="contact">
+  <strong>Contact</strong><br>
+  Email <a href="mailto:doodlecomms89@gmail.com">doodlecomms89@gmail.com</a>. Please include your phone model, your radio model, and the radio's firmware version so we can help faster.
+</div>
+
+<h2>Which radios are supported?</h2>
+<ul>
+  <li>BTECH UV-Pro</li>
+  <li>BTECH UV-50PRO</li>
+  <li>Vero VR-N76</li>
+  <li>Vero VR-N7600</li>
+</ul>
+<p>Other radios that use the same Benshi Bluetooth control protocol are likely to work but are not yet confirmed.</p>
+
+<h2>The app won't connect to my radio</h2>
+<ul>
+  <li>Turn Bluetooth on, on both the phone and the radio, and keep them within a few feet of each other.</li>
+  <li>On the radio, turn <strong>KISS TNC off</strong> while using the app. The radio only talks to one app at a time.</li>
+  <li>Close any other app that talks to the radio (the manufacturer's app, an APRS app).</li>
+  <li>On iPhone, you do <em>not</em> pair the radio in iOS Settings. Connect from inside the app's Connect screen.</li>
+  <li>If it still fails, power the radio off and on, then try again.</li>
+  <li>The Connect screen has a "Get connection help" button that runs a self test and walks through this list.</li>
+</ul>
+
+<h2>No repeaters are showing up</h2>
+<ul>
+  <li>Allow location access when asked, so the app can find what's near you. You can also search by grid square or by latitude and longitude without location.</li>
+  <li>Check your filter (Amateur, GMRS, or both).</li>
+  <li>In remote areas the nearest repeater may simply be far away. Widen the distance or use the map.</li>
+</ul>
+
+<h2>Does the app need an internet connection?</h2>
+<p>No. The repeater database, the maps, and search all work with no signal once the app is installed. Nothing you enter and nothing the app reads from your phone is ever sent anywhere.</p>
+
+<h2>How do I undo a change to my radio?</h2>
+<p>Before you program anything, use <strong>Save a backup</strong> on the Radio Backups screen. That stores a dated snapshot of the whole radio. You can restore any backup later from the same screen.</p>
+
+<h2>Programming put a channel in the wrong slot</h2>
+<p>Use the channel-slot picker when programming a single repeater to choose the exact slot. For bulk programming, pick the starting slot and channel group first. If something still lands wrong, email us with the repeater, the slot you expected, and the slot it used.</p>
+
+<footer>
+  <p><a href="https://doodlecomms.github.io/offline-repeater-pro-privacy/">Privacy Policy</a></p>
+  <p>Last updated September 10, 2026.</p>
+</footer>
+
+</body>
+</html>
